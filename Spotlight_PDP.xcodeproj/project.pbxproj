@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A42C60BB1D196C2F00F7B1DF /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42C60BA1D196C2F00F7B1DF /* ProductCell.swift */; };
+		A44383781D1042CC0022E911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44383771D1042CC0022E911 /* AppDelegate.swift */; };
+		A443837A1D1042CC0022E911 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44383791D1042CC0022E911 /* ProductsViewController.swift */; };
+		A443837D1D1042CC0022E911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A443837B1D1042CC0022E911 /* Main.storyboard */; };
+		A443837F1D1042CC0022E911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A443837E1D1042CC0022E911 /* Assets.xcassets */; };
+		A44383821D1042CC0022E911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44383801D1042CC0022E911 /* LaunchScreen.storyboard */; };
+		A443838B1D10445B0022E911 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44383891D10445B0022E911 /* CoreSpotlight.framework */; };
+		A443838C1D10445B0022E911 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A443838A1D10445B0022E911 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A42C60BA1D196C2F00F7B1DF /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		A44383741D1042CC0022E911 /* Spotlight_PDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotlight_PDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44383771D1042CC0022E911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A44383791D1042CC0022E911 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		A443837C1D1042CC0022E911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A443837E1D1042CC0022E911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A44383811D1042CC0022E911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A44383831D1042CC0022E911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44383891D10445B0022E911 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		A443838A1D10445B0022E911 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A443838D1D1046A30022E911 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A44383711D1042CC0022E911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A443838B1D10445B0022E911 /* CoreSpotlight.framework in Frameworks */,
+				A443838C1D10445B0022E911 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A443836B1D1042CC0022E911 = {
+			isa = PBXGroup;
+			children = (
+				A443838D1D1046A30022E911 /* MapKit.framework */,
+				A44383891D10445B0022E911 /* CoreSpotlight.framework */,
+				A443838A1D10445B0022E911 /* MobileCoreServices.framework */,
+				A44383761D1042CC0022E911 /* Spotlight_PDP */,
+				A44383751D1042CC0022E911 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A44383751D1042CC0022E911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A44383741D1042CC0022E911 /* Spotlight_PDP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A44383761D1042CC0022E911 /* Spotlight_PDP */ = {
+			isa = PBXGroup;
+			children = (
+				A44383771D1042CC0022E911 /* AppDelegate.swift */,
+				A44383791D1042CC0022E911 /* ProductsViewController.swift */,
+				A443837B1D1042CC0022E911 /* Main.storyboard */,
+				A443837E1D1042CC0022E911 /* Assets.xcassets */,
+				A44383801D1042CC0022E911 /* LaunchScreen.storyboard */,
+				A44383831D1042CC0022E911 /* Info.plist */,
+				A42C60BA1D196C2F00F7B1DF /* ProductCell.swift */,
+			);
+			path = Spotlight_PDP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A44383731D1042CC0022E911 /* Spotlight_PDP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44383861D1042CC0022E911 /* Build configuration list for PBXNativeTarget "Spotlight_PDP" */;
+			buildPhases = (
+				A44383701D1042CC0022E911 /* Sources */,
+				A44383711D1042CC0022E911 /* Frameworks */,
+				A44383721D1042CC0022E911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spotlight_PDP;
+			productName = Spotlight_PDP;
+			productReference = A44383741D1042CC0022E911 /* Spotlight_PDP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A443836C1D1042CC0022E911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Flatstack;
+				TargetAttributes = {
+					A44383731D1042CC0022E911 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3EZN9G7JS8;
+					};
+				};
+			};
+			buildConfigurationList = A443836F1D1042CC0022E911 /* Build configuration list for PBXProject "Spotlight_PDP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A443836B1D1042CC0022E911;
+			productRefGroup = A44383751D1042CC0022E911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A44383731D1042CC0022E911 /* Spotlight_PDP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A44383721D1042CC0022E911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44383821D1042CC0022E911 /* LaunchScreen.storyboard in Resources */,
+				A443837F1D1042CC0022E911 /* Assets.xcassets in Resources */,
+				A443837D1D1042CC0022E911 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A44383701D1042CC0022E911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42C60BB1D196C2F00F7B1DF /* ProductCell.swift in Sources */,
+				A443837A1D1042CC0022E911 /* ProductsViewController.swift in Sources */,
+				A44383781D1042CC0022E911 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A443837B1D1042CC0022E911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A443837C1D1042CC0022E911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A44383801D1042CC0022E911 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A44383811D1042CC0022E911 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A44383841D1042CC0022E911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A44383851D1042CC0022E911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A44383871D1042CC0022E911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Christopher Schultz (Q5NM9YSVCD)";
+				INFOPLIST_FILE = Spotlight_PDP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FS.Spotlight-PDP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1634c209-ad1a-4187-8b1f-ff7632d946c5";
+			};
+			name = Debug;
+		};
+		A44383881D1042CC0022E911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Spotlight_PDP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FS.Spotlight-PDP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A443836F1D1042CC0022E911 /* Build configuration list for PBXProject "Spotlight_PDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44383841D1042CC0022E911 /* Debug */,
+				A44383851D1042CC0022E911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44383861D1042CC0022E911 /* Build configuration list for PBXNativeTarget "Spotlight_PDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44383871D1042CC0022E911 /* Debug */,
+				A44383881D1042CC0022E911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A443836C1D1042CC0022E911 /* Project object */;
+}
